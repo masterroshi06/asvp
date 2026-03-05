@@ -1,0 +1,22 @@
+# CMake & Build folders
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Compiled Object files
+*.o
+*.obj
+
+# Executables (in case you build outside the build folder)
+*.out
+asvp
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
