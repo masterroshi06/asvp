@@ -6,6 +6,10 @@
 </p>
 
 <p align="center">
+  <video src="asvp-final.webm" width="100%" autoplay loop muted playsinline></video>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/C++-17-blue.svg" alt="C++17">
   <img src="https://img.shields.io/badge/Platform-Linux-lightgrey.svg" alt="Linux">
 </p>
