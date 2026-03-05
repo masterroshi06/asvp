@@ -5,10 +5,16 @@
   Hooks directly into PulseAudio/PipeWire and uses FFT to draw a 32-bar frequency spectrum using <code>ncurses</code>.
 </p>
 
+
 <p align="center">
-  <video src="https://github.com/masterroshi06/asvp/raw/main/asvp-final.webm" width="100%" autoplay loop muted playsinline>
-  </video>
+  <img src="asvp-teaser.gif" width="100%" alt="ASVP Visualizer Demo">
 </p>
+
+<p align="center">
+  <a href="asvp-final.webm"><b>🎬 Watch Full Installation & Demo Video</b></a>
+</p>
+
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/C++-17-blue.svg" alt="C++17">
@@ -31,6 +37,7 @@ sudo pacman -S base-devel pulseaudio fftw ncurses cmake
 sudo dnf install pulseaudio-libs-devel fftw-devel ncurses-devel cmake gcc-c++
 ```
 
+
 **Ubuntu/Debian:**
 ```bash
 sudo apt install libpulse-dev libfftw3-dev libncursesw5-dev cmake g++
@@ -38,6 +45,14 @@ sudo apt install libpulse-dev libfftw3-dev libncursesw5-dev cmake g++
 
 ## 🚀 Build & Install
 
+
+### Fedora / RHEL (Recommended)
+You can install `asvp` directly via COPR:
+```bash
+sudo dnf copr enable masterroshi06/asvp && sudo dnf install asvp
+```
+
+### For Other distros
 Clone the repo and build using CMake:
 
 ```bash
