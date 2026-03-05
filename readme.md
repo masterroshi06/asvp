@@ -36,7 +36,7 @@ sudo apt install libpulse-dev libfftw3-dev libncursesw5-dev cmake g++
 Clone the repo and build using CMake:
 
 ```bash
-git clone [https://github.com/masterroshi06/asvp.git](https://github.com/masterroshi06/asvp.git)
+git clone https://github.com/masterroshi06/asvp.git
 cd asvp
 mkdir build && cd build
 cmake ..
