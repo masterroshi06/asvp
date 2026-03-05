@@ -6,7 +6,8 @@
 </p>
 
 <p align="center">
-  <video src="asvp-final.webm" width="100%" autoplay loop muted playsinline></video>
+  <video src="https://github.com/masterroshi06/asvp/raw/main/asvp-final.webm" width="100%" autoplay loop muted playsinline>
+  </video>
 </p>
 
 <p align="center">
