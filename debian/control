@@ -1,0 +1,13 @@
+Source: asvp
+Section: utils
+Priority: optional
+Maintainer: masterroshi06 <aayushsankhe158206@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, g++, pkg-config, libpulse-dev, libfftw3-dev, libncurses-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/masterroshi06/asvp
+
+Package: asvp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Audio Spectrum Visualizer Program
+ A lightweight, terminal-based audio spectrum visualizer.
