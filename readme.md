@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="asvp-final.webm"><b>🎬 Watch Full Installation & Demo Video</b></a>
+  <a href="asvp-final.mp4"><b>🎬 Watch Full Installation & Demo Video</b></a>
 </p>
 
 
@@ -19,6 +19,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/C++-17-blue.svg" alt="C++17">
   <img src="https://img.shields.io/badge/Platform-Linux-lightgrey.svg" alt="Linux">
+  <img src="https://img.shields.io/copr/v/masterroshi06/asvp?label=Fedora%20COPR" alt="Fedora COPR">
+  <img src="https://img.shields.io/launchpad/v/masterroshi06/asvp?color=orange&label=Ubuntu%20PPA" alt="Ubuntu PPA">
 </p>
 
 ---
@@ -45,6 +47,12 @@ sudo apt install libpulse-dev libfftw3-dev libncursesw5-dev cmake g++
 
 ## 🚀 Build & Install
 
+### Ubuntu / Debian (Recommended)
+You can install `asvp` directly from the official PPA:
+```bash
+sudo add-apt-repository ppa:masterroshi06/asvp && sudo apt update
+sudo apt install asvp
+```
 
 ### Fedora / RHEL (Recommended)
 You can install `asvp` directly via COPR:
