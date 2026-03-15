@@ -19,6 +19,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/C++-17-blue.svg" alt="C++17">
   <img src="https://img.shields.io/badge/Platform-Linux-lightgrey.svg" alt="Linux">
+  <img src="https://img.shields.io/badge/lines%20of%20code-103-brightgreen.svg" alt="Lines of code">
   <a href="https://copr.fedorainfracloud.org/coprs/masterroshi06/asvp/"><img src="https://img.shields.io/badge/Fedora-COPR-blue?style=flat&logo=fedora" alt="Fedora COPR"></a>
   <a href="https://launchpad.net/~masterroshi06/+archive/ubuntu/asvp"><img src="https://img.shields.io/badge/Ubuntu-PPA-orange?style=flat&logo=ubuntu" alt="Ubuntu PPA"></a>
 </p>
